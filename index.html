@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+      integrity="sha512-vZWT27aGmde93huNyIV/K7YsydxaafHLynlJa/4aPy28/R1a/IxewUH4MWo7As5I33hpQ7JS24kwqy/ciIFgvg=="
+      crossorigin="anonymous"
+    />
+    <title>Ramadan | Home</title>
+  </head>
+  <body>
+    <header class="header_container">
+      <a href="./index.html" class="logo_back">
+        <img
+          src="assets/images/logo.svg"
+          alt="ramadan logo"
+          title="رمضان كريم"
+        />
+      </a>
+    </header>
+    <section class="container_content">
+      <div class="banner_container">
+        <div class="right_item">
+          <h1 class="banner_title">رمضان كريم</h1>
+          <div class="prays_box">
+            <p class="pray_content"></p>
+          </div>
+          <p class="banner_content">
+            ادخل اسمك واحصل على بطاقة رمضانية وشاركها مع اصدقاءك عبر مواقع
+            التواصل الاجتماعي
+          </p>
+          <div class="print_form_box">
+            <form class="print_form">
+              <div class="form_group">
+                <button
+                  class="btn_submit"
+                  name="submit"
+                  id="submitPrint"
+                  aria-label="print button name"
+                  type="submit"
+                >
+                  أطبع الان
+                </button>
+                <input
+                  type="text"
+                  name="name"
+                  id="userName"
+                  required
+                  autocomplete="off"
+                  spellcheck="true"
+                  placeholder="ادخل اسمك"
+                  class="normal_elem_print"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="left_item">
+          <img src="assets/images/banner_img.webp" alt="banner_img" />
+        </div>
+      </div>
+      <div class="timeCount_Container">
+        <div class="timeCount_box">
+          <span class="timeCount_item secs_item" data-name="sec"></span>
+          <span class="timeCount_item">:</span>
+          <span class="timeCount_item mins_item" data-name="min"></span>
+          <span class="timeCount_item">:</span>
+          <span class="timeCount_item hrs_item" data-name="hr"></span>
+          <span class="timeCount_item day_item" data-name="d"></span>
+        </div>
+        <div class="location_box">
+          <div class="placeholderLoader_box">
+            <div class="placeholderIcons"></div>
+            <div class="placeholderName"></div>
+          </div>
+          <div class="placeholderLoader_box">
+            <div class="placeholderIcons"></div>
+            <div class="placeholderName"></div>
+          </div>
+          <div class="placeholderLoader_box">
+            <div class="placeholderIcons"></div>
+            <div class="placeholderName"></div>
+          </div>
+          <div class="placeholderLoader_box">
+            <div class="placeholderIcons"></div>
+            <div class="placeholderName"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/script/main.js" type="text/javascript"></script>
+  </body>
+</html>
