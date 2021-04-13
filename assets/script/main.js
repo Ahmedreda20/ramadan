@@ -213,7 +213,7 @@ form.onsubmit = (e) => {
   e.preventDefault();
   window.open(
     encodeURI(
-      `${window.location.origin}/great_msg_.html?name=${e.target["name"].value}`
+      `./great_msg_.html?name=${e.target["name"].value}`
     ),
     "_self"
   );
