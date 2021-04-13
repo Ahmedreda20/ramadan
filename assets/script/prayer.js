@@ -128,7 +128,7 @@ function setPrayerIside() {
               <li class="li_prays">
                 <a
                   href="${`https://www.facebook.com/sharer.php?u=${encodeURIComponent(
-                    window.location.origin + "?prayer=" + Number(index)
+                    window.location.href + "?prayer=" + Number(index)
                   )}`}"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -140,7 +140,7 @@ function setPrayerIside() {
               <li class="li_prays">
                 <a
                   href="${`https://wa.me/?text=${prayer.content}`}${newLine}${encodeURIComponent(
-      window.location.origin + "?prayer=" + Number(index)
+      window.location.href + "?prayer=" + Number(index)
     )}"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -152,7 +152,7 @@ function setPrayerIside() {
               <li class="li_prays">
                 <a
                   href="${`https://twitter.com/intent/tweet?url=${encodeURIComponent(
-                    window.location.origin + "?prayer=" + Number(index)
+                    window.location.href + "?prayer=" + Number(index)
                   )}&text=${prayer.content}`}"
                   target="_blank"
                   rel="noopener noreferrer"
